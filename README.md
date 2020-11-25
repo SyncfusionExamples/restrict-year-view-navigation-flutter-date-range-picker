@@ -1,2 +1,1 @@
-# restrict-year-view-navigation-flutter-date-range-picker
-How to restrict the year view navigation while tapping header of the Flutter date range picker (SfDateRangePicker)
+**[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/12113/how-to-restrict-the-year-view-navigation-while-tapping-header-of-the-flutter-date-range)**
