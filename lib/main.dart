@@ -8,15 +8,14 @@ class RangeSelection extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          body: Card(
-              margin: const EdgeInsets.fromLTRB(50, 150, 50, 100),
-              child: SfDateRangePicker(
-                view: DateRangePickerView.month,
-                allowViewNavigation: true,
-              ))
-
-          // This trailing comma makes auto-formatting nicer for build methods.
+        body: Card(
+          margin: const EdgeInsets.fromLTRB(50, 150, 50, 100),
+          child: SfDateRangePicker(
+            view: DateRangePickerView.month,
+            allowViewNavigation: false,
           ),
+        ),
+      ),
     );
   }
 }
